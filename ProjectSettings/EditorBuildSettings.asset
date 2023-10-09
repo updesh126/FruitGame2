@@ -5,13 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/FruitsTest.unity
+    guid: ded6a40d71aaea2428e89986b1c49148
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7dac74435cbd1ba43ba58a8129549178,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5e50553d5873e9144b67b9615b7ef443,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b6b679985f908c0478a1dc0bd6449b5b,
       type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 608cce0485b0ea4418c3a260118c49ac,
       type: 2}
