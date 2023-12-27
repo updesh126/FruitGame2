@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hand
+  - Orange
+  - Apple
+  - Mango
+  - Right
+  - Left
   layers:
   - Default
   - TransparentFX
