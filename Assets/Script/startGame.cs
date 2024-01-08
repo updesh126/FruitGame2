@@ -6,6 +6,10 @@ public class startGame : MonoBehaviour
 {
     [SerializeField]
     private GameObject SpwanManager;
+
+    [SerializeField] private GameObject HideCanvas, UnhideCanvas;
+
+
     [SerializeField]
     private AudioSource audio;
 
@@ -34,6 +38,8 @@ public class startGame : MonoBehaviour
         if(Right_H == true && Left_H == true)
         {
             SpwanManager.SetActive(true);
+            HideCanvas.SetActive(false);
+            UnhideCanvas.SetActive(true);
             audio.Play();
         }
     }
